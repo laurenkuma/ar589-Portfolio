@@ -1,0 +1,136 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.intro {
+  background: #ff725c;
+  font-family: Brown;
+  font-size: 300pt;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-shadow: 10px 8px 20px #a463f2;
+}
+
+.intro a {
+  color: white;
+  text-decoration: none;
+}
+
+.website1 {
+  font-family: Brown;
+  font-size: 20pt;
+  background-color: white;
+  box-shadow: 0 0 30px 40px white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* margin-right: 380px; */
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: #ff725c;
+  font-family: Brown;
+  color: black;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+  max-width: 300px;
+  max-height: 300px;
+  /* margin: 40px; */
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.pic1 img,
+.pic3 img,
+.pic5 img {
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.pic1 p,
+.pic3 p,
+.pic5 p {
+  padding-left: 68px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.pic2 img,
+.pic4 img,
+.pic6 img {
+  padding: 10px;
+}
+
+.pic2 p,
+.pic4 p,
+.pic6 p {
+  padding-left: 8px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a img:hover {
+  outline: 4px solid #a463f2;
+}
+a.hover-no-outline img:hover {
+  outline: 0;
+}
+
+.text {
+  font-family: Brown;
+  color: #ff725c;
+  font-size: 26px;
+  pading: 30px;
+  position: fixed;
+  left: 750px;
+  right: 100px;
+}
+
+.pictures {
+  max-width: 900px;
+  /* max-height: 500px; */
+  padding: 20px;
+  margin-left: 90px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 30px 40px #a463f2;
+}
+
+.homebutton {
+  width: 50px;
+  height: 50px;
+  margin-left: 1190px;
+  margin-top: 660px;
+  position: fixed;
+}
+
+.homebutton:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=70);
+  outline: none;
+}
+
+.title {
+  color: #a463f2;
+}
