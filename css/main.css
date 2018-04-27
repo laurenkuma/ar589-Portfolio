@@ -14,6 +14,12 @@
   text-shadow: 10px 8px 20px #a463f2;
 }
 
+/* @media (min-width: 600px) {
+  .grid {
+    display: flex;
+  }
+} */
+
 .intro a {
   color: white;
   text-decoration: none;
@@ -26,16 +32,31 @@
   box-shadow: 0 0 30px 40px white;
 }
 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* margin-right: 380px; */
   grid-column-gap: 40px;
   grid-row-gap: 40px;
   background-color: #ff725c;
   font-family: Brown;
   color: black;
+} */
+
+.grid {
+  background-color: #ff725c;
+  font-family: Brown;
+  color: black;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
 }
 
 .pic1,
