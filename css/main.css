@@ -122,7 +122,7 @@ a.hover-no-outline img:hover {
   color: #ff725c;
   font-size: 26px;
   pading: 30px;
-  position: absolute;
+  position: fixed;
   left: 750px;
   right: 100px;
 }
